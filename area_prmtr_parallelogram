@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,base,height;
+ cout<<"Input a,b,base,height"<<endl;
+ cin>>a>>b>>base>>height;
+ cout<<"Perimeter of parallelogram ="<<2*a+2*b<<endl;
+ cout<<"Area of parallelogram="<<base*height<<endl;
+    return 0;
+}
